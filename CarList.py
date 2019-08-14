@@ -35,7 +35,7 @@ class CarList:
                 return True
             else:
                 cur = cur.next
-                return False
+        return False
 
     def removeHead(self):
         '''if list is empty, returns none. 
