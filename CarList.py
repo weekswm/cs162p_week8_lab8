@@ -64,7 +64,7 @@ class CarList:
     def __len__(self):
         cur = self.head
         total = 0
-        while cur.next != None:
+        while cur:
             total += 1
             cur = cur.next
         return total
